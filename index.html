@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello, Docker!</title>
+    <style>
+        /* Center the container */
+        .container {
+            position: relative;
+            text-align: center;
+        }
+
+        /* Style for the main header */
+        .main-header {
+            font-size: 30px; /* Adjust font size as needed */
+            font-weight: bold; /* Make the text bold */
+            color: black; /* Set text color to black */
+            position: absolute; /* Position the text absolutely */
+            top: 50%; /* Place the text vertically at 50% from the top */
+            left: 50%; /* Place the text horizontally at 50% from the left */
+            transform: translate(-50%, -50%); /* Center the text */
+            z-index: 1; /* Ensure text appears above the image */
+        }
+
+        /* Style for the secondary text */
+        .secondary-text {
+            font-size: 20px; /* Adjust font size as needed */
+            color: black; /* Set text color to black */
+            position: absolute; /* Position the text absolutely */
+            top: 55%; /* Place the text vertically at 60% from the top */
+            left: 50%; /* Place the text horizontally at 50% from the left */
+            transform: translate(-50%, -50%); /* Center the text */
+            z-index: 1; /* Ensure text appears above the image */
+        }
+
+        /* Style for the image */
+        img {
+            display: block; /* Ensure the image is treated as a block element */
+            width: 100%; /* Make the image fill the container width */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Image -->
+        <img src="summer.jpg" alt="Docker Image">
+        
+        <!-- Main header -->
+        <div class="main-header">Saleha's Docker Lab</div>
+        
+        <!-- Secondary text -->
+        <div class="secondary-text">This is a Docker image of a static website</div>
+    </div>
+</body>
+</html>
+
